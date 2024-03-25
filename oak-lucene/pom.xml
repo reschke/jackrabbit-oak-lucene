@@ -213,11 +213,7 @@
     </dependency>
 
     <!-- Lucene dependencies -->
-    <dependency>
-      <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-core</artifactId>
-      <version>${lucene.version}</version>
-    </dependency>
+    <!-- lucene-core 4.7.2 source now embedded -->
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-analyzers-common</artifactId>
